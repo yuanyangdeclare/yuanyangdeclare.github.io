@@ -10,58 +10,36 @@ body,div{
 p{
 	margin: 0;
 	padding: 0;
-    color: white;
+	color: gray;
+	font-weight: bold;
+
 	font-family: "微软雅黑";
 }
 
 a:link,a:visited,img:visited,img:hover{
-	color:#d0d2ff;
+	color:gray;
 	text-decoration: none;
 }
 
 a:hover{
-	font-weight: bold;
+	color: black;
 }
 
-
-#head{
-	border:0px solid white;
-	position: fixed;
-	top:0;
-	left: 0;
+#top{
 	width: 100%;
-	height: 50px;
-	background-color: #191c1f;
+	vertical-align: top;
 }
 
-#head p,#language{
+#container{
+	border:0px solid red;
+    text-align: center;
+    line-height: 200px;
+    font-size: 50px;
+}
+
+#date{
+	margin-top: 20px;
+	margin-bottom: 32px;
 	text-align: center;
-	line-height: 50px;
-	font-size:20px;
-	color:#d0d2ff;
+	font-size: 20px;
 }
-
-#language{
-    position: fixed;
-    right:20px;
-
-}
-
-#first-bar{
-	margin-top: 50px;
-}
-
-#picbar{
-	border:0px solid #191c1f;
-	width: 100%;
-
-	margin:0 auto ;
-	margin-top: 0px;
-	margin-bottom: 0px;
-}
-
-#pic{
-    width: 100%;
-    vertical-align: top;
-}
-
