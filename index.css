@@ -1,0 +1,67 @@
+
+
+/*----------------------------------------全局定义----------------------------------------*/
+
+body,div{
+	margin: 0px;
+	padding: 0;
+}
+
+p{
+	margin: 0;
+	padding: 0;
+    color: white;
+	font-family: "微软雅黑";
+}
+
+a:link,a:visited,img:visited,img:hover{
+	color:#d0d2ff;
+	text-decoration: none;
+}
+
+a:hover{
+	font-weight: bold;
+}
+
+
+#head{
+	border:0px solid white;
+	position: fixed;
+	top:0;
+	left: 0;
+	width: 100%;
+	height: 50px;
+	background-color: #191c1f;
+}
+
+#head p,#language{
+	text-align: center;
+	line-height: 50px;
+	font-size:20px;
+	color:#d0d2ff;
+}
+
+#language{
+    position: fixed;
+    right:20px;
+
+}
+
+#first-bar{
+	margin-top: 50px;
+}
+
+#picbar{
+	border:0px solid #191c1f;
+	width: 100%;
+
+	margin:0 auto ;
+	margin-top: 0px;
+	margin-bottom: 0px;
+}
+
+#pic{
+    width: 100%;
+    vertical-align: top;
+}
+
